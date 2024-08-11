@@ -1,0 +1,142 @@
+@media only screen and (max-width:800px){
+    body{
+      .navbar{
+        flex-direction: column;
+      }
+      .a{
+        margin: 0;
+        font-size: 17px;
+      }
+      .ab{
+        margin-left: 54px;
+      }
+      .sec1{
+        background-image: url("../images/banner-slide/Banner-1.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 34vh;
+      }
+      .left{
+        max-width: 100%;
+        margin-left: 0;
+      }
+      
+      .left> h1{
+      font-size: 1rem;
+      margin-left: -60vw;
+      margin-top: -109px;
+      }
+      .left p{
+        font-size: 0;
+      }
+      .sub{
+        margin-left: -31vw;
+        font-size: 1rem;
+      }
+      .product{
+        font-size: 1rem;
+        width: 56vw;
+        border-radius: 34px;
+        margin-left: -31vw;
+      }
+      .sec2{
+        flex-wrap: wrap;
+      }
+      .feature{
+        align-items: center;
+      }
+      .sec3{
+        height: 32vh;
+      }
+      .abouts{
+        width: 55%;
+        margin: 5px 8px;
+
+      }
+      .abouts h1{margin-bottom: 0;
+        font-size: 0.9rem;
+      }
+      .abouts p{
+        margin-bottom: 0;
+        font-size: 0.28rem;
+      }
+      .para{
+        font-size: 0;
+      }
+      .abouts button{
+        margin: 8px;
+        margin-left: 6px;
+      }
+      .boxes{
+        flex-wrap: wrap;
+      }
+      .button{
+        margin-left: 23vw;
+      }
+      .sec5 button{
+        margin-left: 7vw;
+      }
+      .foot div{
+        margin-left: -7vw;
+        margin: 0;
+      }
+      .foot div ul{
+        margin-bottom: 0;
+      }
+      .dif{
+        font-size: 0.1rem;
+        margin-left: 39vw;
+      }
+      .bot input{
+        width: 18vw;
+      }
+      .bot button{
+        width: 18vw;
+        margin-left: 0;
+        font-size: .8rem;
+      }
+      .Taza{
+        font-size: 0;
+      }
+      .lan{
+        font-size: 0;
+      }
+      .block{
+        flex-direction: column;
+      }
+      .heade{
+        margin-left: 50px;
+        margin: 23px;
+        font-size: 3rem;
+      }
+      .ones{
+        width: 100%;
+
+      }
+      .ones img{
+        width: 91vw;
+      }
+    .second{
+        width: 100%;
+    }
+    .par{
+        margin: 10px;
+    }
+    .touch{
+        flex-direction: column;
+    }
+    .touch button{
+        margin-left: 0;
+    }
+    .in{
+        flex-direction: column;
+    }
+    .ml{
+        margin-left: 72px;
+    }
+    .mla{
+        margin-left: 44px;
+        margin-bottom: 15px;
+    }
+    }
+}

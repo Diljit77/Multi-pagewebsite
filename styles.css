@@ -1,0 +1,304 @@
+body{
+    
+background-image: url("../images/banner-slide/Banner-1.jpg"); 
+background-repeat: no-repeat;
+background-size:  100%;
+}
+ /* width */
+ ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: green;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: green
+  } 
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    list-style: none;
+}
+#fullnav{
+    background-color: black;
+}
+.white{
+    color: white;
+}
+.a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: -25px;
+}
+.a:hover{
+    color: green;
+}
+
+.green{
+    color: green;
+}
+.sec1{
+    
+display: flex;
+justify-content: center;
+text-align: center;
+height: 100vh;
+    
+}
+.left{
+    max-width: 50%;
+    margin-left: -863px;
+    margin-top: 30vh;
+
+}
+.left>h1{
+    font-size: 4rem;
+  font-weight: bolder;
+}
+.sub{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+}
+.left .p{
+    margin-top: -19px;
+}
+.product{
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 33px;
+    font-size: 2.5rem;
+    width: 15vw;
+    
+}
+.product a{
+    text-decoration:none ;
+    color: white;
+    
+}
+.product:hover{
+    background-color: white;
+    border: 2px solid green;
+}.product:hover a{
+    color: green;
+}
+.sec2{
+    display: flex;
+    justify-content: center;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 5px ;
+    margin: 10px 20px;
+    justify-content: center;
+}
+.feat{
+    width: 12vw;
+}
+.feature:hover{
+    background-color: black;
+    
+}
+.feature:hover h2{
+   color:white;
+}
+.sec3{
+    height: 100vh;
+    display: flex;
+    background-image:url("../images/about/about-banner.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.abouts{
+    width: 40%;
+    margin:80px 40px;
+}
+.abouts h1{
+    font-weight: bolder;
+}
+
+.font-weight{
+    font-weight:bolder
+}
+.sec4{
+    text-align: center;
+}
+.m0{
+    margin-top:0;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    
+}
+.box{
+    margin: 10px;
+    border: 1px solid black;
+}
+.box h2{
+    margin: 5px;
+}
+.fruitname{
+    display: flex;
+}
+.f{
+    margin: 11px;
+    font-size: 1.23rem;
+    margin-left: 15px;
+}
+.sec5{
+    text-align: center;
+    background-color: #dfd;
+}
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cont img{
+    width: 25vw;
+    margin: 5px;
+}
+.top{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.but{
+    font-size: 1.5rem;
+    width: 10vw;
+    margin: 5px;
+}
+footer{
+    background-image: url(../images/footer-bg/footer_bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    
+    align-items: center;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+}
+.foot div{
+margin:150px 60px;
+margin-bottom: 30px;
+}
+.Taza{
+    width: 20vw;
+}
+.dif{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.foot input{
+    background-color: black;
+    color: white;
+}
+.color{
+    background-color: #13fd13;
+}
+.end{
+    background-color: green;
+text-align: center;
+height: 10vh;
+align-items: center;
+padding-top: 20px;
+}
+.body{
+    background-image: url("../images/banner-slide/top-banner.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.heade{
+    font-weight: bolder;
+    margin:120px 50px;
+    
+    font-size: 6rem;
+}
+.s1{
+    text-align: center;
+}
+.s1 h1{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    margin-top: 30px;
+}
+.ones{
+    width: 50%;
+}
+.ones img{
+    width: 35vw;
+}
+.second{
+    width: 40%;
+}
+.par{
+    margin-top: 80px;
+}
+.sece1{
+      text-align: center;
+}
+.sece1 h1{
+font-size: 2rem;
+font-weight: bolder;
+}
+.tf{
+    text-align: left;
+}
+.lemo{
+    width: 45vw;
+}
+.se1{
+    text-align: center;
+}
+.se1 h1{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.se1 p{
+    margin-top: 0;
+}
+.touch{
+    background-color: #dfd;
+    display: flex;
+    
+}
+.sid1{
+    width: 50%;
+    margin: auto;
+    padding: auto;
+}
+.in{
+    display: flex;
+}
+.in input{
+margin: 10px;
+}
+textearea{
+    width: 20vw;
+}
+.mar{
+    margin: 30px;
+}
